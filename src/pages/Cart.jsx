@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import ShoppingCart from "../components/ShoppingCart";
 
 function Cart() {
-    return (
-        <div>Cart</div>
-    )
+  return (
+    <>
+      <ShoppingCart />
+      <div>Cart</div>;
+    </>
+  );
 }
 
-export default Cart
+export default Cart;
