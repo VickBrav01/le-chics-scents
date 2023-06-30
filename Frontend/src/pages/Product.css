@@ -1,0 +1,46 @@
+.product-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  column-gap: 5rem;
+  align-items: start;
+  height: 100vh;
+}
+
+.product-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-section li {
+  margin-bottom: 10px;
+}
+
+.product-section a {
+  position: relative;
+  font-size: 1.2rem;
+  color: #000000f7;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.product-section a:hover {
+  color: #726b56;
+}
+
+.product-section a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #726b56;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+.product-section a:hover::before {
+  transform: scaleX(1);
+}

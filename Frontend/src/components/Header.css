@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #182743f7;
+}
+
+.navs {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav-logins {
+  margin-right: 1rem;
+}
+
+.nav-logo {
+  padding-left: 2rem;
+}
+
+.logo {
+  font-size: "2rem";
+  margin-left: "1rem";
+  color: #726b56;
+}
